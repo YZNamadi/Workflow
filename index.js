@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 const PORT = 3000;
 
-const msg = process.env.APP_MESSAGE || 'Default message!';
+const msg = process.env.APP_MESSAGE || 'YZN IS ACTIVE';
 console.log(`Message from container: ${msg}`);
 console.log(`NODE_ENV is set to: ${process.env.NODE_ENV || 'not defined'}`);
 console.log('Connected to MYSQL');
